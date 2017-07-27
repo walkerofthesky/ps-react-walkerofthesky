@@ -1,0 +1,14 @@
+/*
+The selectors can be shorter when compared to plain CSS. With CSS Modules, everything is scoped to the component, so you don't need long, specific selectors, like with BEM. They only apply to the component where the css is imported.
+*/
+.fieldset {
+  margin-bottom: 16px;
+}
+
+.error {
+  color: red;
+}
+
+.inputError {
+  border: 1px solid red;
+}
